@@ -1,0 +1,11 @@
+#
+# Copyright 2009 Sun Microsystems, Inc.  All rights reserved.
+# Use is subject to license terms.
+#
+# Internet host table
+#
+::1		localhost
+127.0.0.1	localhost loghost
+147.32.232.137	fray3
+147.32.232.132   fsun
+147.32.232.136   fsun2

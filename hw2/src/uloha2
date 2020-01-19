@@ -1,0 +1,3 @@
+#!/bin/bash
+echo $(($(date +"%Y")+ $(date +"%_m")+ $(date +"%_d")+ $(date +"%_H")+ $(date +"%_M"))) >"$UID"
+echo "(c) $(whoami)" >>"$UID"

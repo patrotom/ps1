@@ -1,0 +1,8 @@
+#!/bin/bash
+
+ln -s /etc/hosts sln1
+
+for (( I=1; I<$1; I++ ))
+do 
+	ln -s "sln$I" "sln$(($I+1))"
+done
